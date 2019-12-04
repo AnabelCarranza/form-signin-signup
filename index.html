@@ -1,13 +1,59 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Register Form</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  
+  <main>
+    <div class="card">
+      <!-- img -->
+      <div class="img-form">
+        <img src="https://assets-ouch.icons8.com/preview/511/a8fc1d6c-db5e-4530-87e4-e84ac496ebce.png" alt="">
+      </div>
+
+      <!-- form -->
+      <article class="register-form">
+        <section>
+          <h1>Hola!</h1>
+          <h2>Comencemos el viaje</h2>
+        </section>
+        <div>
+          <form>
+            <div class="username">
+              <label for="username">Username</label>
+              <input type="text" name="username" id="username" placeholder="ingresa tu nombre de usuario">
+            </div>
+            <div class="email">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" placeholder="ejemplo@dominio.com">
+            </div>
+            <div class="password">
+              <label for="password">Contraseña</label>
+              <input type="password" name="password" id="password" placeholder="ingresa tu contraseña">
+            </div>
+            <div class="confirm">
+              <label for="confirm">Confirma contraseña</label>
+              <input type="password" name="password" id="confirm" placeholder="confirma tu contraseña">
+            </div>
+            <div class="terms">
+              <input type="checkbox" name="terms" id="terms">
+              <label for="terms">Estoy de acuerdo con los <a class="link" href="#">terminos y condiciones</a></label>
+            </div>
+            <div class="register-button">
+              <button class="button" type="login">Registrarme</button>
+              <p class="register">Tienes una cuenta? <a class="link" href="#"> Ingresa!</a></p>
+            </div>
+          </form>
+        </div>
+      </article>
+    </div>
+  </main>
 </body>
+
 </html>

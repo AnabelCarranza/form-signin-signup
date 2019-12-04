@@ -5,3 +5,182 @@ html, body {
   line-height: 24px;
   background-color: #f5f5f5;
 }
+
+
+/* register form */
+
+.img-form {
+  background-color: #EBD0D3;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 45px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  width: 85%;
+  box-shadow: 0 2px 4px;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.5);
+  height: 85%;
+}
+
+.register-form {
+    width: 45%;
+    padding: 0 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img {
+  width: 100%;
+}
+
+/* login form */
+
+.main-login {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+
+}
+
+.img-login {
+  background-color: #00D1B2;
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 45px;
+}
+
+
+.card-login {
+    display: flex;
+    width: 60%;
+    box-shadow: 0 2px 4px;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.5);
+    height: 55%;
+    overflow: hidden;
+}
+
+
+.register-login {
+    min-width: 250px;
+    width: 45%;
+    padding: 0 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* General */
+
+h1 {
+  font-size: 32px;
+  line-height: 36px;
+}  
+
+h2 {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 300;
+}  
+
+.username, .email, .password, .confirm {
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+}    
+
+
+
+.username input, 
+.email input, 
+.password input, 
+.confirm input {
+  padding: 0 10px;
+  border: 1px solid #DBDBDB;
+  border-radius: 5px;
+  height: 40px;
+}
+
+::placeholder {
+  color: #DBDBDB;
+  font-size: 15px;
+}
+
+.username input:hover, 
+.email input:hover, 
+.password input:hover, 
+.confirm input:hover {
+  border: 1px solid #B5B5B5;
+}  
+
+
+.username input:focus, 
+.email input:focus, 
+.password input:focus, 
+.confirm input:focus {
+  border: 1px solid #3273DC;
+}  
+
+.username input:invalid, 
+.email input:invalid, 
+.password input:invalid, 
+.confirm input:invalid {
+  border: 1px solid #FF0000;
+}  
+  
+.username label, .email label, .password label, .confirm label {
+  margin: 10px 0 5px 0;
+}
+
+.terms {
+  font-weight: lighter;
+  margin: 20px 0 5px 0;
+}
+
+
+.button {
+  color: rgb(246, 248, 244);
+  font-weight: 100;
+  font-size: 16px;
+  background-color: #00D1B2;
+  height: 40px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-top: 40px;
+
+}
+.button:hover {
+  background-color: #00C4A7;
+}
+
+.button:active {
+  background-color: #00B89C;
+}
+
+.placeholder {
+  font-weight: lighter;
+}
+
+.link {
+  color: #3273DC;
+}
+
+.link:hover {
+  color: #363636;
+}
